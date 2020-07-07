@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Google Certification Kotlin 2020"

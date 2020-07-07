@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/navigation_android_core">
+
+    <fragment
+        android:id="@+id/navigation_android_core"
+        android:name="com.danielvilha.google_certification.ui.android_core.AndroidCoreFragment"
+        android:label="@string/title_android_core"
+        tools:layout="@layout/fragment_android_core" />
+    <fragment
+        android:id="@+id/navigation_data_management"
+        android:name="com.danielvilha.google_certification.ui.data_management.DataManagementFragment"
+        android:label="@string/title_data_management"
+        tools:layout="@layout/fragment_data_management" />
+    <fragment
+        android:id="@+id/navigation_user_interface"
+        android:name="com.danielvilha.google_certification.ui.user_interface.UserInterfaceFragment"
+        android:label="@string/title_user_interface"
+        tools:layout="@layout/fragment_user_interface" />
+    <fragment
+        android:id="@+id/navigation_debugging"
+        android:name="com.danielvilha.google_certification.ui.debugging.DebuggingFragment"
+        android:label="@string/title_debugging"
+        tools:layout="@layout/fragment_debugging" />
+    <fragment
+        android:id="@+id/navigation_testing"
+        android:name="com.danielvilha.google_certification.ui.testing.TestingFragment"
+        android:label="@string/title_testing"
+        tools:layout="@layout/fragment_testing" />
+</navigation>

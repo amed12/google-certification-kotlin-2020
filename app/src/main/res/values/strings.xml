@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Google Certification Kotlin 2020</string>
+
+    <string name="title_android_core">Android core</string>
+    <string name="title_user_interface">User interface</string>
+    <string name="title_data_management">Data management</string>
+    <string name="title_debugging">Debugging</string>
+    <string name="title_testing">Testing</string>
+</resources>

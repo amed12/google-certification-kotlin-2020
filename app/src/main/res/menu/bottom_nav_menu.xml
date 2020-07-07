@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_android_core"
+        android:icon="@drawable/ic_android_core"
+        android:title="@string/title_android_core" />
+    <item
+        android:id="@+id/navigation_user_interface"
+        android:icon="@drawable/ic_user_interface"
+        android:title="@string/title_user_interface" />
+    <item
+        android:id="@+id/navigation_data_management"
+        android:icon="@drawable/ic_data_management"
+        android:title="@string/title_data_management" />
+    <item
+        android:id="@+id/navigation_debugging"
+        android:icon="@drawable/ic_debugging"
+        android:title="@string/title_debugging" />
+    <item
+        android:id="@+id/navigation_testing"
+        android:icon="@drawable/ic_testing"
+        android:title="@string/title_testing" />
+</menu>
