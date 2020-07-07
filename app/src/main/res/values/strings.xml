@@ -6,4 +6,9 @@
     <string name="title_data_management">Data management</string>
     <string name="title_debugging">Debugging</string>
     <string name="title_testing">Testing</string>
+
+    <string name="toasts_overview">Toasts overview</string>
+    <string name="toasts_the_basics">The Basics</string>
+    <string name="toasts_positioning_your_toast">Positioning your Toast</string>
+    <string name="toasts_creating_custom_toast">Creating a Custom Toast View</string>
 </resources>

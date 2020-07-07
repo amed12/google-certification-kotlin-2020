@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.android_core.toast_overview.ToastsOverviewFragment">
+
+    <Button
+        android:id="@+id/button_the_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toasts_the_basics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_positioning_your_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/toasts_positioning_your_toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_the_basic"
+        app:layout_constraintStart_toStartOf="@+id/button_the_basic"
+        app:layout_constraintTop_toBottomOf="@+id/button_the_basic" />
+
+    <Button
+        android:id="@+id/button_creating_custom_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/toasts_creating_custom_toast"
+        app:layout_constraintEnd_toEndOf="@+id/button_the_basic"
+        app:layout_constraintStart_toStartOf="@+id/button_the_basic"
+        app:layout_constraintTop_toBottomOf="@+id/button_positioning_your_toast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
