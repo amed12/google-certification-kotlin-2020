@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context=".ui.android_core.snackbar.SnackbarFragment">
+
+    <Button
+        android:id="@+id/button_make_snackbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar_make"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_length_indefinite_snackbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbar_make_length_indefinite"
+        app:layout_constraintEnd_toEndOf="@+id/button_make_snackbar"
+        app:layout_constraintStart_toStartOf="@+id/button_make_snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/button_make_snackbar" />
+
+    <Button
+        android:id="@+id/button_action_text_color"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbar_make_action_text_color"
+        app:layout_constraintEnd_toEndOf="@+id/button_make_snackbar"
+        app:layout_constraintStart_toStartOf="@+id/button_make_snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/button_length_indefinite_snackbar" />
+
+    <Button
+        android:id="@+id/button_make_colorful_snackbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbar_make_colorful"
+        app:layout_constraintEnd_toEndOf="@+id/button_make_snackbar"
+        app:layout_constraintStart_toStartOf="@+id/button_make_snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/button_action_text_color" />
+
+    <Button
+        android:id="@+id/button_colorful_snackbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbar_make_tint_and_background_colorful"
+        app:layout_constraintEnd_toEndOf="@+id/button_make_snackbar"
+        app:layout_constraintStart_toStartOf="@+id/button_make_snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/button_make_colorful_snackbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

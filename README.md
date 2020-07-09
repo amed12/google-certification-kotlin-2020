@@ -12,7 +12,7 @@ Study material to get the Google Developer Android Kotlin certificate.
 ### Topics studied
 Android core
 - [Android Developers -> Toasts](https://developer.android.com/guide/topics/ui/notifiers/toasts) 100%
-- [Android Developers -> Snackbar](https://developer.android.com/reference/android/support/design/widget/Snackbar) 0%
+- [Android Developers -> Snackbar](https://developer.android.com/reference/android/support/design/widget/Snackbar) 50%
 - [Android Developers -> Localize your app]() 0%
 - [Android Developers -> Application fundamentals]() 0%
 - [Android Developers -> Create a notification]() 0%

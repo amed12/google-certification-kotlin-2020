@@ -11,4 +11,12 @@
     <string name="toasts_the_basics">The Basics</string>
     <string name="toasts_positioning_your_toast">Positioning your Toast</string>
     <string name="toasts_creating_custom_toast">Creating a Custom Toast View</string>
+
+    <string name="snackbar">Snackbar</string>
+    <string name="snackbar_make">Make a Snackbar</string>
+    <string name="snackbar_make_length_indefinite">Make Length Indefinite Snackbar</string>
+    <string name="snackbar_make_action_text_color">Make Action Text Color Snackbar</string>
+    <string name="snackbar_make_colorful">Make Colorful Snackbar</string>
+    <string name="snackbar_make_tint_and_background_colorful">Make Tint and Background Colorful Snackbar</string>
+
 </resources>

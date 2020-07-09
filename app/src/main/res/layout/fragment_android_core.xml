@@ -16,4 +16,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_snackbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbar"
+        app:layout_constraintEnd_toEndOf="@+id/button_toast"
+        app:layout_constraintStart_toStartOf="@+id/button_toast"
+        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,14 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.danielvilha.google_certification.R
+import com.danielvilha.google_certification.ui.android_core.snackbar.SnackbarFragment
 import com.danielvilha.google_certification.ui.android_core.toast_overview.ToastsOverviewFragment
 import kotlinx.android.synthetic.main.fragment_android_core.*
 
 class AndroidCoreFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = AndroidCoreFragment()
-    }
 
     private lateinit var viewModel: AndroidCoreViewModel
 
@@ -25,7 +22,6 @@ class AndroidCoreFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(AndroidCoreViewModel::class.java)
-        // TODO: Use the ViewModel
 
         button_toast.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction()
@@ -33,6 +29,11 @@ class AndroidCoreFragment : Fragment() {
                 .commit()
         }
 
-    }
+        button_snackbar.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.nav_host_fragment, SnackbarFragment.newInstance())
+                .commit()
+        }
 
+    }
 }

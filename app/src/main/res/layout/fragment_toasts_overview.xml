@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:padding="16dp"
     tools:context=".ui.android_core.toast_overview.ToastsOverviewFragment">
 
     <Button
         android:id="@+id/button_the_basic"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/toasts_the_basics"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +19,7 @@
 
     <Button
         android:id="@+id/button_positioning_your_toast"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/toasts_positioning_your_toast"
@@ -28,7 +29,7 @@
 
     <Button
         android:id="@+id/button_creating_custom_toast"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/toasts_creating_custom_toast"
